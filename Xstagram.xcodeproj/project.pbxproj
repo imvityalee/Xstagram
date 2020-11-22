@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2BC6E9684186D6BE1EC1A47E /* Pods_Xstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BF91B2A96BE6872B2528FA /* Pods_Xstagram.framework */; };
-		580D6B2924F3E22100B26F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D6B2824F3E22100B26F35 /* AppDelegate.swift */; };
-		580D6B2B24F3E22100B26F35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D6B2A24F3E22100B26F35 /* SceneDelegate.swift */; };
 		580D6B3024F3E22100B26F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580D6B2E24F3E22100B26F35 /* Main.storyboard */; };
 		580D6B3224F3E22B00B26F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580D6B3124F3E22B00B26F35 /* Assets.xcassets */; };
 		580D6B3524F3E22B00B26F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580D6B3324F3E22B00B26F35 /* LaunchScreen.storyboard */; };
@@ -27,6 +25,8 @@
 		B1A07D3A252489B800B09085 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A07D39252489B800B09085 /* HomeViewController.swift */; };
 		B1A07D3D25248A2800B09085 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A07D3C25248A2800B09085 /* FindFriendsViewController.swift */; };
 		B1BF58D22531E45F0002944E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF58D12531E45F0002944E /* MainTabBarController.swift */; };
+		B1C33418256AB2510095F4FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C33416256AB2510095F4FC /* SceneDelegate.swift */; };
+		B1C33419256AB2510095F4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C33417256AB2510095F4FC /* AppDelegate.swift */; };
 		B1D97E432555E35E00901689 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D97E422555E35E00901689 /* Post.swift */; };
 		B1F6F471254DD53800FA1DA5 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6F470254DD53800FA1DA5 /* StorageService.swift */; };
 		B1F6F474254DD8D500FA1DA5 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6F473254DD8D500FA1DA5 /* PostService.swift */; };
@@ -37,8 +37,6 @@
 		02BF91B2A96BE6872B2528FA /* Pods_Xstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D1930F12E26CCDEB546128 /* Pods-Xstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xstagram.debug.xcconfig"; path = "Target Support Files/Pods-Xstagram/Pods-Xstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		580D6B2524F3E22100B26F35 /* Xstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		580D6B2824F3E22100B26F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		580D6B2A24F3E22100B26F35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		580D6B2F24F3E22100B26F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		580D6B3124F3E22B00B26F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580D6B3424F3E22B00B26F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		B1A07D39252489B800B09085 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B1A07D3C25248A2800B09085 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		B1BF58D12531E45F0002944E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B1C33416256AB2510095F4FC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1C33417256AB2510095F4FC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D97E422555E35E00901689 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B1F6F470254DD53800FA1DA5 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		B1F6F473254DD8D500FA1DA5 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
@@ -94,7 +94,6 @@
 				580D6B4224F3FAC200B26F35 /* Models */,
 				580D6B4124F3FABA00B26F35 /* Helpers */,
 				580D6B3F24F3FAA500B26F35 /* Controllers */,
-				580D6B2724F3E22100B26F35 /* Xstagram */,
 				580D6B2624F3E22100B26F35 /* Products */,
 				0C78EC429D9FCC33C9D71E8E /* Pods */,
 				FBEBDB93DF594C56520F88BF /* Frameworks */,
@@ -112,10 +111,11 @@
 		580D6B2724F3E22100B26F35 /* Xstagram */ = {
 			isa = PBXGroup;
 			children = (
-				580D6B2824F3E22100B26F35 /* AppDelegate.swift */,
-				580D6B2A24F3E22100B26F35 /* SceneDelegate.swift */,
+				B1C33417256AB2510095F4FC /* AppDelegate.swift */,
+				B1C33416256AB2510095F4FC /* SceneDelegate.swift */,
 			);
-			path = Xstagram;
+			name = Xstagram;
+			path = ../Xstagram;
 			sourceTree = "<group>";
 		};
 		580D6B3F24F3FAA500B26F35 /* Controllers */ = {
@@ -126,6 +126,7 @@
 				B1A07D39252489B800B09085 /* HomeViewController.swift */,
 				B1A07D3C25248A2800B09085 /* FindFriendsViewController.swift */,
 				B1BF58D12531E45F0002944E /* MainTabBarController.swift */,
+				580D6B2724F3E22100B26F35 /* Xstagram */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -344,20 +345,20 @@
 			files = (
 				B1870B49250A875C00817A51 /* UserService.swift in Sources */,
 				586DC4D924F40D0D00A2F61D /* LoginViewController.swift in Sources */,
+				B1C33419256AB2510095F4FC /* AppDelegate.swift in Sources */,
 				B1BF58D22531E45F0002944E /* MainTabBarController.swift in Sources */,
 				B12773C7250A7B2900EEDBFF /* CreateUsernameViewController.swift in Sources */,
 				B10DF6D625656D6E008F5822 /* UIImage+Size.swift in Sources */,
 				B1FDEFD02532026500C0288A /* MGPhotoHelper.swift in Sources */,
 				B10DF6D925656EE3008F5822 /* StorageReference+Post.swift in Sources */,
 				B18A0BC3251CDAF10077D4BA /* Storyboard+Utility.swift in Sources */,
-				580D6B2924F3E22100B26F35 /* AppDelegate.swift in Sources */,
 				B1D97E432555E35E00901689 /* Post.swift in Sources */,
 				B1F6F471254DD53800FA1DA5 /* StorageService.swift in Sources */,
 				B1A07D3D25248A2800B09085 /* FindFriendsViewController.swift in Sources */,
+				B1C33418256AB2510095F4FC /* SceneDelegate.swift in Sources */,
 				B1F6F474254DD8D500FA1DA5 /* PostService.swift in Sources */,
 				B1A07D3A252489B800B09085 /* HomeViewController.swift in Sources */,
 				B12773C3250A6CE400EEDBFF /* User.swift in Sources */,
-				580D6B2B24F3E22100B26F35 /* SceneDelegate.swift in Sources */,
 				B18A0BC0251CD8A50077D4BA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
